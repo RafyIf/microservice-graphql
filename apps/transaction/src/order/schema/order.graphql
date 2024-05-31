@@ -1,0 +1,20 @@
+type Order {
+  # Example field (placeholder)
+  id: Int
+  user: User!
+  orderNumber: String!
+  orderDate: String
+  payment: Payment!
+}
+
+input CreateOrderInput {
+  # Example field (placeholder)
+  userId: String!
+  productId: Int!
+  quantity: Int!
+  discount: Float!
+}
+
+
+
+

@@ -1,0 +1,3 @@
+type Query {
+  meProfile(userId: String!): User!
+}

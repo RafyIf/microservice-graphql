@@ -1,0 +1,22 @@
+enum PaymentStatus {
+  PAID
+  UNPAID
+}
+type Payment {
+  # Example field (placeholder)
+  id: Int
+  user: User!
+  transactionNumber: String!
+  total: Int!
+  statusTransaction: PaymentStatus
+  order: Order!
+}
+
+input UpdatePaymentInput {
+  id: String!
+  statusTransaction: PaymentStatus!
+}
+
+
+
+

@@ -1,0 +1,16 @@
+type Category {
+  # Example field (placeholder)
+  id: Int!
+  name: String!
+}
+
+input CreateCategoryInput {
+  # Example field (placeholder)
+  name: String!
+}
+
+input UpdateCategoryInput {
+  name: String!
+}
+
+

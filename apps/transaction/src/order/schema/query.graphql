@@ -1,0 +1,5 @@
+type Query {
+  orders: [Order]!
+  order(id: Int!): Order
+  orderByUser(userId: String!): [Order]!
+}

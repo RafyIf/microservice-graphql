@@ -1,0 +1,20 @@
+type Product {
+  # Example field (placeholder)
+  id: Int!
+  name: String!
+  description: String
+  price: Float!
+  slug: String!
+  category: Category
+}
+
+input CreateProductInput {
+  # Example field (placeholder)
+  name: String!
+  description: String
+  price: Float!
+}
+
+input UpdateProductInput {
+  id: Int!
+}

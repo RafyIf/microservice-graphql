@@ -1,0 +1,4 @@
+type Mutation {
+  register(registerInput: RegisterInput!): User!
+  updateUser(updateUserInput: UpdateUserInput!): User!
+}
